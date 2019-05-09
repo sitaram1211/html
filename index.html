@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>IRON MAN</h1>
+    <a href="https://www.marvel.com/characters/iron-man-tony-stark">marvel profile</a><br/>
+    <img src=  iron-man-mark-iv-with-suit-up-gantry_marvel_gallery_5c4d05a0f2f9b.jpg.jp2 alt="iron-man image" style="width:400px">
+    <p>here is the<a href="https://twitter.com/Iron_Man">twitter link</a></p>
+<h1>Enemies:</h1>
+<ul>
+  <li>Mandarian</li>
+  <li>Brandt</li>
+  <li>Savin</li>
+  <li>Thanos</li>
+  <li>Ultron</li>
+   
+</ul>
+<h1>Top 3 Iron Man Movies:</h1>
+<ol type=1>
+    <li>Iron Man (<span style="color: red"> 2008 </span>)</li>
+    <li>Iron Man 2 (<span style="color: red"> 2010 </span>)</li>
+    <li>Iron Man 3 (<span style="color: red"> 2012 </span></li>
+
+</ol>
+<h1 style="display :inline ;" > twitter link</h1>
+<img src="src.png" alt="" style="width:400px;">
+
+<h1>Registration form</h1>
+<form action="https://hidden-ridge-64485.herokuapp.com/registration" method="GET">
+<h2 style="display :inline ;">Name</h2>
+<input type="text" name="username" placeholder="username"><br/>
+<h2 style="display :inline ;">Password</h2>
+<input type="password" name="pass"><br/> 
+<h2 style="display :inline ;">Email</h2>
+<input type="email" name="email" placeholder="xyz@gmail.com"><br/>
+<h2 style="display :inline ;">age</h2>
+<input type="number" name="age"> 
+
+<h2>which is your favourite super hero ?</h2>
+<h2 style="display :inline">superman</h2>
+<input type="radio" name="superhero" value="superman">
+<h2 style="display :inline">spider-nam</h2>
+<input type="radio" name="superhero" value="spider-man">
+<h2 style="display :inline">batman</h2>
+<input type="radio">
+<h2 style="display :inline">iron-man</h2>
+<input type="radio"><br/>
+<input type="submit">
+</form>
+<h1>Booking form</h1>
+<form action="https://hidden-ridge-64485.herokuapp.com/booking" method="POST">
+    <select name="movie">
+<option> Avengers</option>
+<option> Avengers-infinity-war</option>
+<option> Avengers-endgame</option>
+    </select><br/>
+    <h2 style="display:inline"> popcorns</h2>
+    <input type="checkbox" name="addon" value="popcorns">
+    <h2 style="display:inline"> beverages</h2>
+    <input type="checkbox" name="addon" value="beverages">>
+    <h2 style="display:inline"> chips</h2>
+    <input type="checkbox"><br/>
+    <input type="submit">
+</form>
+<h1>upload selfie</h1>
+<form action="https://hidden-ridge-64485.herokuapp.com/selfie" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <input type="submit">
+</form>
+</body>
+</html>
